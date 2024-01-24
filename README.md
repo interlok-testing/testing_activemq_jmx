@@ -21,4 +21,4 @@ Once set up you'll be able to communicate with your Interlok instances via JMS r
 ## Configuring the client side
 
 Our client will simply be the UI, which will usually communicate to instances via JMXMP.  Add a new instance on the dashboard page and set the following properties;
- - __url__ = jmxserviceurl=service:jmx:activemq:///tcp://localhost:61616?jmx.type=Topic&jmx.destination=jmxTopic
+ - __url__ = service:jmx:activemq:///tcp://localhost:61616?jmx.type=Topic&jmx.destination=jmxTopic
